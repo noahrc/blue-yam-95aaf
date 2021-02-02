@@ -87,7 +87,7 @@ sections:
           - label: Learn More
             url: /features
             style: secondary
-            has_icon: false
+            has_icon: true
             icon: arrow-right
             icon_position: right
   - section_id: call-to-action
