@@ -86,7 +86,7 @@ sections:
         actions:
           - label: Learn More
             url: /features
-            style: primary
+            style: link
             has_icon: true
             icon: envelope
             icon_position: left
