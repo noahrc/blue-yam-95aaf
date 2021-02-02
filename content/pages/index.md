@@ -88,7 +88,7 @@ sections:
             url: /features
             style: secondary
             has_icon: true
-            icon: github
+            icon: twitter
             icon_position: right
   - section_id: call-to-action
     type: section_cta
