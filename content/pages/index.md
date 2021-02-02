@@ -89,7 +89,7 @@ sections:
             style: secondary
             has_icon: true
             icon: envelope
-            icon_position: right
+            icon_position: left
   - section_id: call-to-action
     type: section_cta
     title: This Is Call To Action Block!
