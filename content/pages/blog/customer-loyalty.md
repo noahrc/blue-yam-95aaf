@@ -1,5 +1,5 @@
 ---
-title: Customer Loyalty Programs That Stick
+title: Why I Took FPU Four Times (When I Wasn’t Even in Debt!)
 subtitle: A story about customer loyalty
 author: content/data/authors/jane-doe.yaml
 excerpt: >-
