@@ -6,9 +6,9 @@ sections:
     image: images/hero.png
     image_alt: App preview
     title: You Are Welcome Here
-    content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
+    content: |
+      Hoboken Grace is a diverse and growing community church seeking to 
+      love and serve our city as we celebrate everything God has done for us.
     actions:
       - label: Learn More
         url: /features
