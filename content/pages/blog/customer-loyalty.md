@@ -1,6 +1,6 @@
 ---
 title: Why I Took FPU Four Times (When I Wasn’t Even in Debt!)
-subtitle: A story about customer loyalty
+subtitle: ''
 author: content/data/authors/jane-doe.yaml
 excerpt: >-
   A story about customer loyalty curabitur sed consectetur nisi. Integer sit
