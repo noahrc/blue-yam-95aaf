@@ -95,7 +95,7 @@ sections:
     title: 'We don''t just live here, we love here!'
     subtitle: This is an optional description for the call to action block.
     actions:
-      - label: Get Started
+      - label: Get Connected
         url: /signup
         style: primary
   - section_id: recent-posts
