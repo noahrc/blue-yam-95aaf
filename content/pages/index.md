@@ -125,5 +125,8 @@ seo:
       value: The preview of the Azimuth theme
     - name: 'twitter:image'
       value: images/hero.png
+  description: >-
+    Hoboken Grace is a diverse and growing community church seeking to love and
+    serve our city as we celebrate everything God has done for us.
 layout: landing
 ---
