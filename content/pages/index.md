@@ -112,7 +112,7 @@ seo:
     - name: 'og:type'
       value: website
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: Hoboken Grance
     - name: 'og:description'
       value: The preview of the Azimuth theme
     - name: 'og:image'
