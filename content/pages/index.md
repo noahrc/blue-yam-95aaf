@@ -3,7 +3,8 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
+    video: videos/WEB-HOMEPAGE-LOOP-LARGE.mp4
+    video_poster: images/hero.png
     image_alt: App preview
     title: You Are Welcome Here
     content: |
