@@ -114,7 +114,9 @@ seo:
     - name: 'og:title'
       value: Hoboken Grance
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: >-
+        Hoboken Grace is a diverse and growing community church seeking to love
+        and serve our city as we celebrate everything God has done for us.
     - name: 'og:image'
       value: images/hero.png
     - name: 'twitter:card'
