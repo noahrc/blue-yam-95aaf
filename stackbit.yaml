@@ -539,6 +539,14 @@ models:
         name: image_alt
         label: Image Alt Text
         description: The alt text of the section image
+      - type: string
+        name: video
+        label: Video URL
+        label: URL of a video file
+      - type: image
+        name: video_poster
+        label: Video Poster Image
+        description: Image to display while the video loads
       - type: list
         name: actions
         label: Action Buttons
