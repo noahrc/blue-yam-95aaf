@@ -4,7 +4,7 @@ sections:
   - section_id: hero
     type: section_hero
     video: videos/WEB-HOMEPAGE-LOOP-LARGE.mp4
-    video_poster: images/hero.png
+    video_poster: images/beige-parsley.jpg
     image_alt: App preview
     title: You Are Welcome Here
     content: |
