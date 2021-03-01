@@ -16,7 +16,7 @@ const SectionHero = props => {
           )}
           {section?.video && (
             <div className="cell block-preview">
-              <video playsinline="" autoplay="" muted="" loop="" poster={withPrefix(section?.video_poster)} id="bgvideo" src="https://hobokengrace.com/podcasts/HG%20WEB%20HOMEPAGE%20LOOP%20LARGE.mp4" width="100%" height="y">
+              <video playsinline="" autoplay="" muted="" loop="" poster={withPrefix(section?.video_poster)} id="bgvideo" src={section.video} width="100%" height="y">
                 <source src={section.video} type="video/mp4" />
               </video>
             </div>
