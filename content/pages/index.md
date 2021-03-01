@@ -105,7 +105,6 @@ sections:
     title: Latest Posts
 seo:
   title: Hoboken Grace
-  description: The preview of the Azimuth theme
   robots:
     - index
     - follow
