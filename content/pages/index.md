@@ -125,7 +125,7 @@ sections:
         description: |-
           God is calling us to fully experience our Home in Him!
           Series Launch 2/21
-        url: lorem-ipsum
+        url: /currentseries
         type: icon_link_item
 seo:
   title: Hoboken Grace
