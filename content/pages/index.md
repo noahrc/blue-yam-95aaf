@@ -14,6 +14,28 @@ sections:
       - label: Learn More
         url: /features
         style: primary
+  - section_id: lorem-ipsum
+    background: gray
+    reviews: []
+    type: section_icon_links
+    items:
+      - title: Watch Now
+        description: Watch all of our previous conversations online on demand!
+        url: /podcast
+        type: icon_link_item
+        icon_name: play
+      - icon_name: laptop
+        title: Online Opportunities
+        description: Experience our many online opportunities to connect and grow!
+        url: /nextsteps
+        type: icon_link_item
+      - icon_name: door-open
+        title: '''Threshold'' Series'
+        description: |-
+          God is calling us to fully experience our Home in Him!
+          Series Launch 2/21
+        url: /currentseries
+        type: icon_link_item
   - section_id: reviews
     type: section_reviews
     background: white
@@ -103,28 +125,6 @@ sections:
     type: section_posts
     background: gray
     title: Latest Posts
-  - section_id: lorem-ipsum
-    background: gray
-    reviews: []
-    type: section_icon_links
-    items:
-      - title: Watch Now
-        description: Watch all of our previous conversations online on demand!
-        url: /podcast
-        type: icon_link_item
-        icon_name: play
-      - icon_name: laptop
-        title: Online Opportunities
-        description: Experience our many online opportunities to connect and grow!
-        url: /nextsteps
-        type: icon_link_item
-      - icon_name: door-open
-        title: '''Threshold'' Series'
-        description: |-
-          God is calling us to fully experience our Home in Him!
-          Series Launch 2/21
-        url: /currentseries
-        type: icon_link_item
 seo:
   title: Hoboken Grace
   robots:
