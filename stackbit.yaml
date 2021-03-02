@@ -671,8 +671,8 @@ models:
           - white
         default: gray
       - type: list
-        name: reviews
-        label: Reviews
+        name: items
+        label: Items
         items:
           type: model
           models:
