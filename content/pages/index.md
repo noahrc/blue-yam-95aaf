@@ -30,7 +30,7 @@ sections:
         url: /podcast
         type: icon_link_item
         icon_name: play
-      - icon_name: laptop
+      - icon_name: check
         title: Online Opportunities
         description: Experience our many online opportunities to connect and grow!
         url: /nextsteps
