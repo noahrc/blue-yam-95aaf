@@ -121,7 +121,7 @@ sections:
         url: /nextsteps
         type: icon_link_item
       - icon_name: door
-        title: '''Thresh'
+        title: '''Threshold'' Series'
         description: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
