@@ -120,7 +120,7 @@ sections:
         description: Experience our many online opportunities to connect and grow!
         url: /nextsteps
         type: icon_link_item
-      - icon_name: door
+      - icon_name: door-open
         title: '''Threshold'' Series'
         description: |-
           God is calling us to fully experience our Home in Him!
