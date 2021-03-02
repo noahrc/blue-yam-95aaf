@@ -116,7 +116,7 @@ sections:
         type: icon_link_item
         icon_name: play
       - icon_name: laptop
-        title: lorem-ipsum
+        title: Online Opportunities
         description: Experience our many online opportunities to connect and grow!
         url: lorem-ipsum
         type: icon_link_item
