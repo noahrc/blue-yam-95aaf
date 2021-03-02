@@ -112,7 +112,7 @@ sections:
     items:
       - title: Watch Now
         description: Watch all of our previous conversations online on demand!
-        url: lorem-ipsum
+        url: /podcast
         type: icon_link_item
         icon_name: play
       - icon_name: laptop
