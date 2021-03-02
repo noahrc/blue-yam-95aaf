@@ -114,7 +114,7 @@ sections:
         description: Watch all of our previous conversations online on demand!
         url: lorem-ipsum
         type: icon_link_item
-        icon_name: check
+        icon_name: play
       - icon_name: laptop
         title: lorem-ipsum
         description: Experience our many online opportunities to connect and grow!
