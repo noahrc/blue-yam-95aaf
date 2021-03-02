@@ -10,10 +10,7 @@ sections:
     content: |
       Hoboken Grace is a diverse and growing community church seeking to 
       love and serve our city as we celebrate everything God has done for us.
-    actions:
-      - label: Learn More
-        url: /features
-        style: primary
+    actions: []
   - section_id: lorem-ipsum
     background: gray
     reviews: []
