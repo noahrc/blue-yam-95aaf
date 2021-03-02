@@ -2,7 +2,7 @@ import React from 'react';
 import {Link, withPrefix} from '../utils';
 
 const ActionLink = props => {
-  const action = this.props?.action;
+  const action = props?.action;
     return (
       <Link href={withPrefix(action?.url)}
         {...(action?.new_window ? { target: '_blank' } : null)}
