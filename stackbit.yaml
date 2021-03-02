@@ -651,7 +651,7 @@ models:
           type: model
           models:
             - review_item
-  section_reviews:
+  section_icon_links:
     type: object
     label: Icon Links Section
     extends:
