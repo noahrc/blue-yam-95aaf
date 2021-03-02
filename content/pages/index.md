@@ -20,28 +20,6 @@ sections:
         new_window: false
         no_follow: false
         type: action
-  - section_id: lorem-ipsum
-    background: gray
-    reviews: []
-    type: section_icon_links
-    items:
-      - title: Watch Now
-        description: Watch all of our previous conversations online on demand!
-        url: /podcast
-        type: icon_link_item
-        icon_name: play
-      - icon_name: check
-        title: Online Opportunities
-        description: Experience our many online opportunities to connect and grow!
-        url: /nextsteps
-        type: icon_link_item
-      - icon_name: door-open
-        title: '''Threshold'' Series'
-        description: |-
-          God is calling us to fully experience our Home in Him!
-          Series Launch 2/21
-        url: /currentseries
-        type: icon_link_item
   - section_id: reviews
     type: section_reviews
     background: white
@@ -69,6 +47,28 @@ sections:
         content: >-
           Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
+  - section_id: lorem-ipsum
+    background: gray
+    reviews: []
+    type: section_icon_links
+    items:
+      - title: Watch Now
+        description: Watch all of our previous conversations online on demand!
+        url: /podcast
+        type: icon_link_item
+        icon_name: play
+      - icon_name: check
+        title: Online Opportunities
+        description: Experience our many online opportunities to connect and grow!
+        url: /nextsteps
+        type: icon_link_item
+      - icon_name: door-open
+        title: '''Threshold'' Series'
+        description: |-
+          God is calling us to fully experience our Home in Him!
+          Series Launch 2/21
+        url: /currentseries
+        type: icon_link_item
   - section_id: features
     type: section_features
     background: gray
