@@ -110,7 +110,7 @@ sections:
     reviews: []
     type: section_icon_links
     items:
-      - title: lorem-ipsum
+      - title: Watch Now
         description: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
