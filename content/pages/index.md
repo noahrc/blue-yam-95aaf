@@ -115,11 +115,9 @@ sections:
         url: lorem-ipsum
         type: icon_link_item
         icon_name: check
-      - icon_name: lorem-ipsum
+      - icon_name: laptop
         title: lorem-ipsum
-        description: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        description: Experience our many online opportunities to connect and grow!
         url: lorem-ipsum
         type: icon_link_item
 seo:
