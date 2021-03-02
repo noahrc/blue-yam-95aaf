@@ -103,6 +103,12 @@ sections:
     type: section_posts
     background: gray
     title: Latest Posts
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    reviews: []
+    type: section_icon_links
 seo:
   title: Hoboken Grace
   robots:
