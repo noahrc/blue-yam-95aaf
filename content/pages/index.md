@@ -120,7 +120,7 @@ sections:
         description: Experience our many online opportunities to connect and grow!
         url: /nextsteps
         type: icon_link_item
-      - icon_name: lorem-ipsum
+      - icon_name: door
         title: lorem-ipsum
         description: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
