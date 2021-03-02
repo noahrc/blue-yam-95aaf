@@ -651,6 +651,50 @@ models:
           type: model
           models:
             - review_item
+  section_reviews:
+    type: object
+    label: Icon Links Section
+    extends:
+      - section
+    fields:
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The subtitle of the section
+      - type: enum
+        name: background
+        label: Background
+        description: The background of the section
+        options:
+          - gray
+          - white
+        default: gray
+      - type: list
+        name: reviews
+        label: Reviews
+        items:
+          type: model
+          models:
+            - icon_link_item
+  icon_link_item:
+    type: object
+    label: Icon Link Item
+    fields:
+      - type: string
+        name: icon_name
+        label: Icon Name
+      - type: string
+        name: title
+        label: Title
+        required: true
+      - type: text
+        name: description
+        label: description
+      - type: string
+        name: url
+        label: URL
+        required: true
+        widget: url
   review_item:
     type: object
     label: Review Item

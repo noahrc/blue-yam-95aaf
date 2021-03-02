@@ -39,6 +39,7 @@ class MyDocument extends Document {
                     <ScriptTag src={withPrefix('js/plugins.js')}/>
                     <ScriptTag src={withPrefix('js/init.js')}/>
                     <ScriptTag src={withPrefix('js/main.js')}/>
+                    <ScriptTag src="https://kit.fontawesome.com/1f675edba5.js" crossorigin="anonymous" />
                     <NextScript />
                 </body>
             </Html>
