@@ -109,6 +109,14 @@ sections:
     background: gray
     reviews: []
     type: section_icon_links
+    items:
+      - icon_name: lorem-ipsum
+        title: lorem-ipsum
+        description: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        url: lorem-ipsum
+        type: icon_link_item
 seo:
   title: Hoboken Grace
   robots:
