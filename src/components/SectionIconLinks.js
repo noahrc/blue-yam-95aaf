@@ -23,15 +23,15 @@ const SectionIconLinks = props => {
                 <div key={`${section?.title} icon link ${item_idx}`} className="cell icon-link">
                   <div className="card">
                     <div className="icon-link-icon">
-                      <i class={`fas fa-${item.icon_name || 'check'} fa-lg`} />
+                      <i class={`fas fa-${item.icon_name || 'check'} fa-2x`} />
                     </div>
                     <div className="icon-link-body">
                       {item.title && (
-                        <h3 className="icon-link-title">
+                        <h4 className="icon-link-title">
                           <a href={withPrefix(item.url)} >
                             {item.title}
                           </a>
-                        </h3>
+                        </h4>
                       )}
                       <p className="icon-link-text">{htmlToReact(item.description)}</p>
                     </div>
