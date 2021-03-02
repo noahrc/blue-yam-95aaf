@@ -266,6 +266,7 @@ models:
           models:
             - section_content
             - section_cta
+            - section_icon_links
             - section_faq
             - section_features
             - section_hero
