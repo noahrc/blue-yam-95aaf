@@ -104,7 +104,6 @@ sections:
     background: gray
     title: Latest Posts
   - section_id: lorem-ipsum
-    title: lorem-ipsum
     subtitle: lorem-ipsum
     background: gray
     reviews: []
