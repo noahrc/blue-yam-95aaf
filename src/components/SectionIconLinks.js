@@ -1,5 +1,4 @@
 import React from 'react';
-import _ from 'lodash';
 
 import { htmlToReact, withPrefix} from '../utils';
 
@@ -29,7 +28,7 @@ const SectionIconLinks = props => {
                     <div className="icon-link-body">
                       {item.title && (
                         <h3 className="icon-link-title">
-                          <a href={item.url} >
+                          <a href={withPrefix(item.url)} >
                             {item.title}
                           </a>
                         </h3>
