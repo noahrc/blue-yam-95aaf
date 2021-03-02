@@ -15,7 +15,7 @@ sections:
         url: /features
         style: primary
   - section_id: lorem-ipsum
-    background: white
+    background: gray
     reviews: []
     type: section_icon_links
     items:
