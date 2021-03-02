@@ -116,7 +116,7 @@ sections:
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         url: lorem-ipsum
         type: icon_link_item
-        icon_name: arrow
+        icon_name: check
 seo:
   title: Hoboken Grace
   robots:
