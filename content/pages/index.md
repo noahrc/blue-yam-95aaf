@@ -118,7 +118,7 @@ sections:
       - icon_name: laptop
         title: Online Opportunities
         description: Experience our many online opportunities to connect and grow!
-        url: lorem-ipsum
+        url: /next
         type: icon_link_item
       - icon_name: lorem-ipsum
         title: lorem-ipsum
