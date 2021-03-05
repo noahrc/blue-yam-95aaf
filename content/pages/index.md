@@ -37,7 +37,7 @@ sections:
         url: /currentseries
         type: icon_link_item
   - section_id: lorem-ipsum
-    title: lorem-ipsum
+    title: This Sunday Choose Your Adventure!
     subtitle: lorem-ipsum
     background: gray
     columns: []
