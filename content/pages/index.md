@@ -59,6 +59,21 @@ sections:
           - dolor sit amet
         url: lorem-ipsum
         type: col_item
+      - icon_name: lorem-ipsum
+        title: lorem-ipsum
+        markdown: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        url: lorem-ipsum
+        type: col_item
     type: section_two_cols
   - section_id: reviews
     type: section_reviews
