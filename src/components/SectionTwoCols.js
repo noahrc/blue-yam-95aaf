@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { htmlToReact, withPrefix} from '../utils';
+import { markdownify, htmlToReact, withPrefix} from '../utils';
 
 const SectionTwoCols = props => {
   const { section } = props;
