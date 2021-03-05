@@ -23,7 +23,7 @@ const SectionTwoCols = props => {
               <div key={`${section?.title} col ${idx}`} className="cell col">
                 <div>
                   <div className="col-body">
-                    {item.title && (
+                    {col.title && (
                       <h4 className="col-title">
                         {col.title_url && 
                           <a href={withPrefix(col.title_url)} >
