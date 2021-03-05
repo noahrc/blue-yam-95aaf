@@ -20,6 +20,7 @@ import SectionIconLinks from './SectionIconLinks';
 import SectionPosts from './SectionPosts';
 import SectionPricing from './SectionPricing';
 import SectionReviews from './SectionReviews';
+import SectionTwoCols from './SectionTwoCols';
 
 export {
     Action,
@@ -44,6 +45,7 @@ export {
     SectionPosts,
     SectionPricing,
     SectionReviews,
+    SectionTwoCols,
 };
 
 export default {
@@ -68,5 +70,6 @@ export default {
     SectionIconLinks,
     SectionPosts,
     SectionPricing,
-    SectionReviews
+    SectionReviews,
+    SectionTwoCols,
 };

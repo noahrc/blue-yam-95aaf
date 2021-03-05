@@ -274,6 +274,7 @@ models:
             - section_pricing
             - section_reviews
             - section_contact
+            - section_two_cols
       - type: model
         name: seo
         models:
@@ -677,6 +678,48 @@ models:
           type: model
           models:
             - icon_link_item
+  section_two_cols:
+    type: object
+    label: Two Columns Section
+    extends:
+      - section
+    fields:
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The subtitle of the section
+      - type: enum
+        name: background
+        label: Background
+        description: The background of the section
+        options:
+          - gray
+          - white
+        default: gray
+      - type: list
+        name: columns
+        label: Columns
+        items:
+          type: model
+          models:
+            - col_item
+  col_item:
+    type: object
+    label: Column Item
+    fields:
+      - type: string
+        name: icon_name
+        label: Icon Name
+      - type: string
+        name: title
+        label: Title
+      - type: markdown
+        name: markdown
+        label: content
+      - type: string
+        name: url
+        label: URL
+        widget: url
   icon_link_item:
     type: object
     label: Icon Link Item
