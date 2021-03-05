@@ -42,7 +42,7 @@ sections:
       No matter where you are in the world you can be part of the Hoboken 
       Grace community. Join us live every Sunday morning at 
       live.hobokengrace.com or watch on demand at any time during the week!
-    background: gray
+    background: white
     columns: []
     type: section_two_cols
   - section_id: reviews
