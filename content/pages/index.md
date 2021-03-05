@@ -43,7 +43,22 @@ sections:
       Grace community. Join us live every Sunday morning at 
       live.hobokengrace.com or watch on demand at any time during the week!
     background: white
-    columns: []
+    columns:
+      - icon_name: lorem-ipsum
+        title: lorem-ipsum
+        markdown: >-
+          ## Lorem ipsum
+
+
+          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+          - Lorem ipsum
+
+          - dolor sit amet
+        url: lorem-ipsum
+        type: col_item
     type: section_two_cols
   - section_id: reviews
     type: section_reviews
