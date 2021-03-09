@@ -45,9 +45,9 @@ const SectionTwoCols = props => {
                       </div>
                     }
                     {markdownify(col.markdown)}
-                    {section?.actions && (
+                    {col.actions && (
                       <div className="block-buttons">
-                        <CtaButtons {...props} actions={section?.actions} />
+                        <CtaButtons {...props} actions={col.actions} />
                       </div>
                     )}
                   </div>
