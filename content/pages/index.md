@@ -64,15 +64,12 @@ sections:
           ## Indoor
 
 
-          Our indoor space is an extremely safe and powerful experience. 
+          Our indoor space is an extremely safe and powerful experience.
 
           Registration opens every Tuesday at 5pm and is required. Reserve a
           table
-           for you and your quarantine group to celebrate together!
 
-          *   Lorem ipsum
-
-          *   dolor sit amet
+          for you and your quarantine group to celebrate together!
         url: lorem-ipsum
         type: col_item
     type: section_two_cols
