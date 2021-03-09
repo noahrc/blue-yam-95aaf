@@ -36,7 +36,7 @@ sections:
           Series Launch 2/21
         url: /currentseries
         type: icon_link_item
-  - section_id: lorem-ipsum
+  - section_id: Choose-your-adventure
     title: This Sunday Choose Your Adventure!
     subtitle: |-
       No matter where you are in the world you can be part of the Hoboken 
