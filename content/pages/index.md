@@ -23,7 +23,7 @@ sections:
         description: Watch all of our previous conversations online on demand!
         url: /podcast
         type: icon_link_item
-        icon_name: play
+        icon_name: check
       - icon_name: laptop
         title: Online Opportunities
         description: Experience our many online opportunities to connect and grow!
