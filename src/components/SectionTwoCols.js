@@ -1,5 +1,6 @@
 import React from 'react';
 
+import CtaButtons from './CtaButtons';
 import { markdownify, htmlToReact, withPrefix} from '../utils';
 
 const SectionTwoCols = props => {
