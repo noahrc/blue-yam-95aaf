@@ -89,6 +89,7 @@ sections:
             type: action
     type: section_two_cols
     bg_image: images/Light_Blur-Darken.minified.jpg
+    style: light-on-dark
   - section_id: reviews
     type: section_reviews
     background: white
