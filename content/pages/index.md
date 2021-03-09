@@ -47,9 +47,6 @@ sections:
       - icon_name: lorem-ipsum
         title: Online
         markdown: >
-          ### Online
-
-
           Whether you’re watching live on Sunday mornings or joining us during
           the
 
