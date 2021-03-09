@@ -63,17 +63,19 @@ sections:
         type: col_item
       - icon_name: lorem-ipsum
         title: lorem-ipsum
-        markdown: >-
-          ## Lorem ipsum
+        markdown: >
+          ## Indoor
 
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Our indoor space is an extremely safe and powerful experience. 
 
+          Registration opens every Tuesday at 5pm and is required. Reserve a
+          table
+           for you and your quarantine group to celebrate together!
 
-          - Lorem ipsum
+          *   Lorem ipsum
 
-          - dolor sit amet
+          *   dolor sit amet
         url: lorem-ipsum
         type: col_item
     type: section_two_cols
