@@ -4,8 +4,13 @@ import { markdownify, htmlToReact, withPrefix} from '../utils';
 
 const SectionTwoCols = props => {
   const { section } = props;
+  const sectionStyles = {
+    ...(section?.bg_image && {
+      backgroundImage: `url("${section?.bg_image}")`,
+    })
+  }
   return (
-    <section id={section?.section_id} className="block icon-links-block outer">
+    <section id={section?.section_id} className="block two-cols-block outer" style={sectionStyles}>
       <div className="block-header inner-small">
         {section?.title && (
           <h2 className="block-title">{section?.title}</h2>
@@ -34,6 +39,11 @@ const SectionTwoCols = props => {
                       </h4>
                     )}
                     {markdownify(col.markdown)}
+                    {section?.actions && (
+                      <div className="block-buttons">
+                        <CtaButtons {...props} actions={section?.actions} />
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

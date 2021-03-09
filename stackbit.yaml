@@ -703,6 +703,13 @@ models:
           type: model
           models:
             - col_item
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: model
+          models:
+            - action
   col_item:
     type: object
     label: Column Item
