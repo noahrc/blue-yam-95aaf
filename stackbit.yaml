@@ -703,13 +703,6 @@ models:
           type: model
           models:
             - col_item
-      - type: list
-        name: actions
-        label: Action Buttons
-        items:
-          type: model
-          models:
-            - action
   col_item:
     type: object
     label: Column Item
@@ -739,6 +732,13 @@ models:
         name: url
         label: URL
         widget: url
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: model
+          models:
+            - action
   icon_link_item:
     type: object
     label: Icon Link Item
