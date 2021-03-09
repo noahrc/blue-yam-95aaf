@@ -52,13 +52,10 @@ sections:
 
           Whether you’re watching live on Sunday mornings or joining us during
           the
-           week our online services give you the opportunity to connect at any 
+
+          week our online services give you the opportunity to connect at any
+
           time from any where!
-
-
-          *   Lorem ipsum
-
-          *   dolor sit amet
         url: lorem-ipsum
         type: col_item
       - icon_name: lorem-ipsum
