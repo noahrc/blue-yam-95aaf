@@ -79,7 +79,7 @@ sections:
         type: col_item
         actions:
           - label: Register now
-            url: lorem-ipsum
+            url: /register
             style: link
             has_icon: false
             icon: arrow-left
