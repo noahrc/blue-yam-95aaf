@@ -30,6 +30,7 @@ const SectionTwoCols = props => {
                             {col.title}
                           </a>
                         }
+                        {!col.title_url && col.title}
                       </h4>
                     )}
                     {markdownify(col.markdown)}
