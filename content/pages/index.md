@@ -56,6 +56,16 @@ sections:
         url: lorem-ipsum
         type: col_item
         image: images/superb-moon.jpg
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
       - icon_name: lorem-ipsum
         title: Indoor
         markdown: >
