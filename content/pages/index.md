@@ -57,7 +57,7 @@ sections:
         type: col_item
         image: images/superb-moon.jpg
         actions:
-          - label: lorem-ipsum
+          - label: <div>
             url: lorem-ipsum
             style: link
             has_icon: false
