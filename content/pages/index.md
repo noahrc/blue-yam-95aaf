@@ -45,7 +45,7 @@ sections:
     background: white
     columns:
       - icon_name: lorem-ipsum
-        title: lorem-ipsum
+        title: Online
         markdown: >
           ### Online
 
