@@ -55,6 +55,7 @@ sections:
           time from any where!
         url: lorem-ipsum
         type: col_item
+        image: images/superb-moon.jpg
       - icon_name: lorem-ipsum
         title: Indoor
         markdown: >
