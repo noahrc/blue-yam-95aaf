@@ -58,9 +58,6 @@ sections:
       - icon_name: lorem-ipsum
         title: Indoor
         markdown: >
-          ### Indoor
-
-
           Our indoor space is an extremely safe and powerful experience.
 
           Registration opens every Tuesday at 5pm and is required. Reserve a
