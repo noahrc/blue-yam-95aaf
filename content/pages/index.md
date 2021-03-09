@@ -58,7 +58,7 @@ sections:
         image: images/superb-moon.jpg
         actions:
           - label: Watch now
-            url: lorem-ipsum
+            url: /podcast/
             style: link
             has_icon: false
             icon: arrow-left
