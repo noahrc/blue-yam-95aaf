@@ -50,10 +50,10 @@ sections:
           ## Online
 
 
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Whether you’re watching live on Sunday mornings or joining us during
+          the
+           week our online services give you the opportunity to connect at any 
+          time from any where!
 
 
           *   Lorem ipsum
