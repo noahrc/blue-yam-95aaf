@@ -57,7 +57,7 @@ sections:
         type: col_item
         image: images/superb-moon.jpg
         actions:
-          - label: <div>
+          - label: Watch now
             url: lorem-ipsum
             style: link
             has_icon: false
