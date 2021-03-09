@@ -77,6 +77,16 @@ sections:
           for you and your quarantine group to celebrate together!
         url: lorem-ipsum
         type: col_item
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
     type: section_two_cols
   - section_id: reviews
     type: section_reviews
