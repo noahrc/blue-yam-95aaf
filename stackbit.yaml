@@ -696,6 +696,10 @@ models:
           - gray
           - white
         default: gray
+      - type: image
+        name: bg_image
+        label: Background Image
+        description: The image displayed in the background of the section
       - type: list
         name: columns
         label: Columns
