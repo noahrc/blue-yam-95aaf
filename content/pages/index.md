@@ -37,7 +37,7 @@ sections:
         url: /currentseries
         type: icon_link_item
   - section_id: Choose-your-adventure
-    title: This Sunday Choose Your Adventure!
+    title: This Sunday Choose Your Adventure!!
     subtitle: |-
       No matter where you are in the world you can be part of the Hoboken 
       Grace community. Join us live every Sunday morning at 
