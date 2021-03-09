@@ -61,7 +61,7 @@ sections:
       - icon_name: lorem-ipsum
         title: lorem-ipsum
         markdown: >
-          ## Indoor
+          ### Indoor
 
 
           Our indoor space is an extremely safe and powerful experience.
