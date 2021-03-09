@@ -59,7 +59,7 @@ sections:
         url: lorem-ipsum
         type: col_item
       - icon_name: lorem-ipsum
-        title: lorem-ipsum
+        title: Indoor
         markdown: >
           ### Indoor
 
