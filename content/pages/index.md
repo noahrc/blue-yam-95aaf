@@ -80,7 +80,7 @@ sections:
         actions:
           - label: Register now
             url: /register
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
