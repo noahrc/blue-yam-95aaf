@@ -92,7 +92,7 @@ sections:
     style: light-on-dark
   - section_id: reviews
     type: section_reviews
-    background: white
+    background: gray
     title: Testimonials
     subtitle: >-
       Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
