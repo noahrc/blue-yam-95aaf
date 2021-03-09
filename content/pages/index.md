@@ -46,17 +46,19 @@ sections:
     columns:
       - icon_name: lorem-ipsum
         title: lorem-ipsum
-        markdown: >-
-          ## Lorem ipsum
+        markdown: >
+          ## Online
+
+
 
 
           Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
-          - Lorem ipsum
+          *   Lorem ipsum
 
-          - dolor sit amet
+          *   dolor sit amet
         url: lorem-ipsum
         type: col_item
       - icon_name: lorem-ipsum
