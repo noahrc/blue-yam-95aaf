@@ -88,6 +88,7 @@ sections:
             no_follow: false
             type: action
     type: section_two_cols
+    bg_image: images/Light_Blur-Darken.minified.jpg
   - section_id: reviews
     type: section_reviews
     background: white
