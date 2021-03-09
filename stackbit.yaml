@@ -684,6 +684,13 @@ models:
     extends:
       - section
     fields:
+      - type: enum
+        name: style
+        label: Style
+        options:
+          - dark-on-light
+          - light-on-dark
+        default: link
       - type: string
         name: subtitle
         label: Subtitle

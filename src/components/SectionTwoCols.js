@@ -11,7 +11,7 @@ const SectionTwoCols = props => {
     })
   }
   return (
-    <section id={section?.section_id} className="block two-cols-block outer" style={sectionStyles}>
+    <section id={section?.section_id} className={`block two-cols-block outer ${section?.style}`} style={sectionStyles}>
       <div className="block-header inner-small">
         {section?.title && (
           <h2 className="block-title">{section?.title}</h2>
