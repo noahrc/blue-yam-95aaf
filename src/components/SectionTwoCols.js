@@ -38,6 +38,11 @@ const SectionTwoCols = props => {
                         {!col.title_url && col.title}
                       </h4>
                     )}
+                    {col.image && 
+                      <div className="cell block-preview">
+                        <img src={withPrefix(col.image)} alt={col.image_alt} />
+                      </div>
+                    }
                     {markdownify(col.markdown)}
                     {section?.actions && (
                       <div className="block-buttons">
