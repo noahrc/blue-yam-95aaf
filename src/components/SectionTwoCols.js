@@ -2,6 +2,7 @@ import React from 'react';
 
 import CtaButtons from './CtaButtons';
 import { markdownify, htmlToReact, withPrefix} from '../utils';
+import YoutubeVideo from "./YoutubeVideo";
 
 const SectionTwoCols = props => {
   const { section } = props;
@@ -42,6 +43,11 @@ const SectionTwoCols = props => {
                     {col.image && 
                       <div className="cell block-preview">
                         <img src={withPrefix(col.image)} alt={col.image_alt} />
+                      </div>
+                    }
+                    {col.youtube_video && 
+                      <div className="cell block-preview">
+                        <YoutubeVideo src={col.youtube_video.url} />
                       </div>
                     }
                     {markdownify(col.markdown)}
