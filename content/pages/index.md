@@ -89,7 +89,7 @@ sections:
             type: action
         youtube_video:
           title: lorem-ipsum
-          url: lorem-ipsum
+          url: 'https://www.youtube.com/embed/W7sGK5RA8m8'
           type: youtube_video
     type: section_two_cols
     bg_image: images/Light_Blur-Darken.minified.jpg
