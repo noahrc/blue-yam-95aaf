@@ -373,6 +373,20 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+  youtube_video:
+    type: data
+    label: YouTube Video
+    folder: videos/youtube
+    hideContent: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the video
+      - type: string
+        name: url
+        label: URL
+        widget: url
   section:
     type: object
     label: Section
@@ -727,7 +741,7 @@ models:
       - type: image
         name: image
         label: Image
-        description: The image displayed in the section
+        description: An image to display
       - type: string
         name: image_alt
         label: Image Alt Text
@@ -736,6 +750,10 @@ models:
         name: image_url
         label: Image URL
         description: The url of the image
+      - type: youtube_video
+        name: youtube_video
+        label: YouTube Video
+        description: A YouTube video
       - type: markdown
         name: markdown
         label: content
