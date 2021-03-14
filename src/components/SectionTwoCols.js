@@ -46,9 +46,7 @@ const SectionTwoCols = props => {
                       </div>
                     }
                     {col.youtube_video && 
-                      <div className="cell block-preview">
-                        <YoutubeVideo src={col.youtube_video.url} />
-                      </div>
+                      <YoutubeVideo src={col.youtube_video.url} />
                     }
                     {markdownify(col.markdown)}
                     {col.actions && (
