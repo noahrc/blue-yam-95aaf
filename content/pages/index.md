@@ -87,6 +87,10 @@ sections:
             new_window: false
             no_follow: false
             type: action
+        youtube_video:
+          title: lorem-ipsum
+          url: lorem-ipsum
+          type: youtube_video
     type: section_two_cols
     bg_image: images/Light_Blur-Darken.minified.jpg
     style: light-on-dark
