@@ -6,7 +6,7 @@ excerpt: >-
   A story about customer loyalty curabitur sed consectetur nisi. Integer sit
   amet commodo massa.
 date: '2021-01-03'
-thumb_image: images/thoughtful-zucchini.jpg
+thumb_image: images/20200425_120734.jpg
 thumb_image_alt: A group of people working in a cafe
 image: images/Why-I-Took-FPU-Four-Times.jpg
 image_alt: A group of people working in a cafe

@@ -227,8 +227,9 @@
   }
 }
 
-// Pricing, reviews blocks
+// Pricing, icon link, reviews blocks
 .pricing-block,
+.icon-links-block,
 .reviews-block {
   .grid {
     -ms-flex-pack: center;
@@ -247,6 +248,7 @@
 
 @media only screen and (min-width: 901px) {
   .pricing-block,
+  .icon-links-block,
   .reviews-block {
     .cell:first-child:nth-last-child(3),
     .cell:first-child:nth-last-child(3) ~ .cell {
@@ -614,5 +616,55 @@
         color: #fff;
       }
     }
+  }
+}
+
+.icon-link {
+  border: 0;
+  color: $gray-600;
+  font-size: 0.75em;
+  line-height: 1.66667;
+
+  .card {
+    display: flex;
+    align-items: stretch;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+.icon-link-icon {
+  display: flex;
+  align-items: center;
+  padding: 1.5em 2em;
+  background: $gray-300;
+  color: white;
+}
+
+.icon-link-body {
+  padding: 1.5em;
+}
+
+.icon-link-title {
+  a {
+    text-decoration: none;
+  }
+}
+
+.two-cols-block {
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.two-cols-block .col {
+  text-align: center;
+  max-width: 50%;
+}
+
+.two-cols-block.light-on-dark {
+  background-color: black;
+  color: white;
+  h1, h2, h3, h4, h5, h6, .block-subtitle {
+    color: white;
   }
 }

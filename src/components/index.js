@@ -16,9 +16,11 @@ import SectionCta from './SectionCta';
 import SectionFaq from './SectionFaq';
 import SectionFeatures from './SectionFeatures';
 import SectionHero from './SectionHero';
+import SectionIconLinks from './SectionIconLinks';
 import SectionPosts from './SectionPosts';
 import SectionPricing from './SectionPricing';
 import SectionReviews from './SectionReviews';
+import SectionTwoCols from './SectionTwoCols';
 
 export {
     Action,
@@ -39,9 +41,11 @@ export {
     SectionFaq,
     SectionFeatures,
     SectionHero,
+    SectionIconLinks,
     SectionPosts,
     SectionPricing,
-    SectionReviews
+    SectionReviews,
+    SectionTwoCols,
 };
 
 export default {
@@ -63,7 +67,9 @@ export default {
     SectionFaq,
     SectionFeatures,
     SectionHero,
+    SectionIconLinks,
     SectionPosts,
     SectionPricing,
-    SectionReviews
+    SectionReviews,
+    SectionTwoCols,
 };

@@ -266,6 +266,7 @@ models:
           models:
             - section_content
             - section_cta
+            - section_icon_links
             - section_faq
             - section_features
             - section_hero
@@ -273,6 +274,7 @@ models:
             - section_pricing
             - section_reviews
             - section_contact
+            - section_two_cols
       - type: model
         name: seo
         models:
@@ -371,6 +373,20 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+  youtube_video:
+    type: data
+    label: YouTube Video
+    folder: videos/youtube
+    hideContent: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the video
+      - type: string
+        name: url
+        label: URL
+        widget: url
   section:
     type: object
     label: Section
@@ -539,6 +555,14 @@ models:
         name: image_alt
         label: Image Alt Text
         description: The alt text of the section image
+      - type: string
+        name: video
+        label: Video URL
+        descripton: URL of a video file
+      - type: image
+        name: video_poster
+        label: Video Poster Image
+        description: Image to display while the video loads
       - type: list
         name: actions
         label: Action Buttons
@@ -643,6 +667,126 @@ models:
           type: model
           models:
             - review_item
+  section_icon_links:
+    type: object
+    label: Icon Links Section
+    extends:
+      - section
+    fields:
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The subtitle of the section
+      - type: enum
+        name: background
+        label: Background
+        description: The background of the section
+        options:
+          - gray
+          - white
+        default: gray
+      - type: list
+        name: items
+        label: Items
+        items:
+          type: model
+          models:
+            - icon_link_item
+  section_two_cols:
+    type: object
+    label: Two Columns Section
+    extends:
+      - section
+    fields:
+      - type: enum
+        name: style
+        label: Style
+        options:
+          - dark-on-light
+          - light-on-dark
+        default: link
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The subtitle of the section
+      - type: enum
+        name: background
+        label: Background
+        description: The background of the section
+        options:
+          - gray
+          - white
+        default: gray
+      - type: image
+        name: bg_image
+        label: Background Image
+        description: The image displayed in the background of the section
+      - type: list
+        name: columns
+        label: Columns
+        items:
+          type: model
+          models:
+            - col_item
+  col_item:
+    type: object
+    label: Column Item
+    fields:
+      - type: string
+        name: icon_name
+        label: Icon Name
+      - type: string
+        name: title
+        label: Title
+      - type: image
+        name: image
+        label: Image
+        description: An image to display
+      - type: string
+        name: image_alt
+        label: Image Alt Text
+        description: The alt text of the image
+      - type: string
+        name: image_url
+        label: Image URL
+        description: The url of the image
+      - type: youtube_video
+        name: youtube_video
+        label: YouTube Video
+        description: A YouTube video
+      - type: markdown
+        name: markdown
+        label: content
+      - type: string
+        name: url
+        label: URL
+        widget: url
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: model
+          models:
+            - action
+  icon_link_item:
+    type: object
+    label: Icon Link Item
+    fields:
+      - type: string
+        name: icon_name
+        label: Icon Name
+      - type: string
+        name: title
+        label: Title
+        required: true
+      - type: text
+        name: description
+        label: description
+      - type: string
+        name: url
+        label: URL
+        required: true
+        widget: url
   review_item:
     type: object
     label: Review Item

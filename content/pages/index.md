@@ -4,7 +4,7 @@ sections:
   - section_id: hero
     type: section_hero
     video: videos/WEB-HOMEPAGE-LOOP-LARGE.mp4
-    video_poster: images/hero.png
+    video_poster: images/beige-parsley.jpg
     image_alt: App preview
     title: You Are Welcome Here
     content: |
@@ -14,13 +14,93 @@ sections:
       - label: Learn More
         url: /features
         style: primary
+  - section_id: lorem-ipsum
+    background: gray
+    reviews: []
+    type: section_icon_links
+    items:
+      - title: Watch Now
+        description: Watch all of our previous conversations online on demand!
+        url: /podcast
+        type: icon_link_item
+        icon_name: check
+      - icon_name: laptop
+        title: Online Opportunities
+        description: Experience our many online opportunities to connect and grow!
+        url: /nextsteps
+        type: icon_link_item
+      - icon_name: door-open
+        title: '''Threshold'' Series'
+        description: |-
+          God is calling us to fully experience our Home in Him!
+          Series Launch 2/21
+        url: /currentseries
+        type: icon_link_item
+  - section_id: Choose-your-adventure
+    title: This Sunday Choose Your Adventure!!
+    subtitle: |-
+      No matter where you are in the world you can be part of the Hoboken 
+      Grace community. Join us live every Sunday morning at 
+      live.hobokengrace.com or watch on demand at any time during the week!
+    background: white
+    columns:
+      - icon_name: lorem-ipsum
+        title: Online
+        markdown: >
+          Whether you’re watching live on Sunday mornings or joining us during
+          the
+
+          week our online services give you the opportunity to connect at any
+
+          time from any where!
+        url: lorem-ipsum
+        type: col_item
+        image: images/superb-moon.jpg
+        actions:
+          - label: Watch now
+            url: /podcast
+            style: primary
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
+      - icon_name: lorem-ipsum
+        title: Indoor
+        markdown: >
+          Our indoor space is an extremely safe and powerful experience.
+
+          Registration opens every Tuesday at 5pm and is required. Reserve a
+          table
+
+          for you and your quarantine group to celebrate together!
+        url: lorem-ipsum
+        type: col_item
+        actions:
+          - label: Register now
+            url: /register
+            style: primary
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            type: action
+        youtube_video:
+          title: lorem-ipsum
+          url: 'https://www.youtube.com/embed/W7sGK5RA8m8'
+          type: youtube_video
+    type: section_two_cols
+    bg_image: images/Light_Blur-Darken.minified.jpg
+    style: light-on-dark
   - section_id: reviews
     type: section_reviews
     background: white
     title: Testimonials
     subtitle: >-
       Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. 
+      semper libero id sodales.
     reviews:
       - author: Eric Widget
         avatar: images/review1.jpg
@@ -104,8 +184,7 @@ sections:
     background: gray
     title: Latest Posts
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: Hoboken Grace
   robots:
     - index
     - follow
@@ -113,9 +192,11 @@ seo:
     - name: 'og:type'
       value: website
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: Hoboken Grance
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: >-
+        Hoboken Grace is a diverse and growing community church seeking to love
+        and serve our city as we celebrate everything God has done for us.
     - name: 'og:image'
       value: images/hero.png
     - name: 'twitter:card'
@@ -126,5 +207,8 @@ seo:
       value: The preview of the Azimuth theme
     - name: 'twitter:image'
       value: images/hero.png
+  description: >-
+    Hoboken Grace is a diverse and growing community church seeking to love and
+    serve our city as we celebrate everything God has done for us.
 layout: landing
 ---
